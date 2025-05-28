@@ -1,0 +1,12 @@
+1. Hover Effect:
+Each .experience-item has a hover effect that shifts it slightly to the right (transform: translateX(10px)).
+
+2. Details Visibility:
+The details are initially hidden (display: none).
+On hover, the .details div becomes visible (display: block) with a sliding animation.
+
+3. Keyframe Animation:
+The slideIn animation makes the text appear smoothly when the .details div is revealed.
+
+3. General Styling:
+Styling for headers, paragraphs, and containers to ensure readability and visual appeal.

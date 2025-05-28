@@ -1,0 +1,398 @@
+
+/* Global CSS Box Sizing */
+* {
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+/* Applying margin, padding, and border to the body */
+/*body {
+    margin: 20px;
+    padding: 20px;
+    background-color: #0A090C;
+    border: 5px solid #E09200;
+} */
+
+/* Navigation Menu */
+nav {
+    background-color: #0A090C;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #E09200;
+}
+
+nav li {
+    margin: 10px;
+}
+
+nav a {
+    color: #0A090C;
+    font-size: 24px;
+    transition: color 0.3s ease;
+    background-color: inherit
+}
+
+nav a:hover {
+    color: #0A090C;
+}
+
+/* Header */
+.header-class {
+    text-align: center;
+    background-color: #E09200;
+    border-style: inset;
+    border-width: 8px;
+    border-color: #0A090C;
+    margin-bottom: 20px; /* Adding margin to utilize collapsing margins */
+}
+
+.header-content {
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    color: #0A090C; /* Text below Headshot */
+}
+
+/* Profile Picture Styling */
+img {
+    border-width: 5px;
+    border-radius: 3%; /* Making the profile picture rounded */
+    border-style: ridge;
+    border-color: #0A090C;
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    text-shadow: #0A090C;
+    color: #0A090C;
+    letter-spacing: .8rem;
+    font-size: 42px;
+}
+
+
+.quote {
+    color: #FFFDED;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 10px; /* Adding padding below headers */
+}
+
+.contact-info {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #FFFDED;
+    text-align: center;
+}
+
+
+/* The Typewriter Effect */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    font-size: clamp(2rem, 2.8vw, 5rem);
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+  
+.typewriter {
+    width: 18ch; /* Adjust the width to match the text length */
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid #FFFDED;
+    color: #0A090C;
+    animation: cursor 1s step-start infinite, text 5s steps(18) infinite;
+}
+  
+@keyframes cursor {
+    0%, 100% { 
+      border-color: #FFFDED; 
+    }
+}
+  
+@keyframes text {
+    0% { 
+      width: 0; 
+    }
+    100% { 
+      width: 18ch; 
+    }
+}
+
+/* Introduction, 'Hi, There!' Summary */
+.smallbit {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #FFFDED;
+}
+
+/* General Headers */
+h1, h2 {
+    color: #0A090C;
+    font-size: 60px;
+}
+
+/* Links */
+a {
+    color: #FFFDED;
+    text-decoration: underline;
+}
+
+/* Body, Body Headers, Body Sections */
+body {
+    margin: 20px;
+    padding: 20px;
+    background-color: #FFFDED;
+    border: 5px solid #FFFDED;
+    font-family: 'Roboto', sans-serif;
+}
+
+h4, h5 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    color: #0A090C;
+    margin: 0;
+    padding: 0px 0;
+    line-height: 1.5; 
+}
+
+h6 {
+    font-size: 32px;
+    text-align: center;
+    padding: 0px 0;
+    margin-top: 2px;
+    margin-bottom: 1px;
+}
+
+section {
+    padding: 25px;
+    margin-bottom: 20px; /* Adding margin to separate sections */
+    border: 2px solid #FFFDED; /* Adding borders to space sections apart */
+}
+
+/* Experience Section aka WHERE I LEARNED WHAT I KNOW */
+.experience-item {
+    background-color: #E09200;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+}
+
+
+.experience-item:hover {
+    transform: translateX(10px);
+}
+
+.experience-item h5 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #FFFDED;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.highlight {
+    color: #FFFDED;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.details {
+    color: #FFFDED;
+    font-size: 16px;
+    display: none;
+}
+
+.experience-item:hover .details {
+    display: block;
+    animation: slideIn 0.5s forwards;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+p {
+    text-align: center;
+    line-height: 1.5;
+}
+
+/* Skills Table Title WHAT I KNOW TITLE */
+h3 {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #0A090C;
+}
+
+/* Skills Table Display */
+.skills-title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #0A090C;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.skills .column {
+    flex: 1;
+    width: 20%;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 8px;
+    color: #E09200;
+}
+
+.skills li {
+    background-color: #E09200;
+    text-align: center;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+/* Style/Color of Table */
+table {
+    width: 80%;
+    margin: 10px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid #E09200;
+    background-color: #0A090C;
+    color: #FFFDED;
+}
+
+th {
+    background-color: #E09200;
+    color: #0A090C;
+    font-size: 24px;
+}
+
+/* Progress Bar Styling on Skills Table */
+.progress-bar {
+  background-color: #0A090C;
+  border-radius: 120px;
+  overflow: hidden;
+  width: 100px;
+  height: 20px;
+  margin: 0 auto;
+}
+
+.progress {
+  background-color: #E09200;
+  height: 100%;
+  border-radius: 5px;
+  text-align: center;
+  color: #0A090C;
+  font-size: 12px;
+  font-weight: bold;
+  width: 0;
+  transition: width 2s ease-in-out;
+}
+
+/* Footer (Education / Certs) */
+footer#education {
+    background-color: #0A090C;
+    padding: 30px;
+    text-align: center;
+    color: #E09200;
+}
+
+footer#education ul {
+    list-style-type: none; /* Remove bullets */
+    padding-left: 0; /* Remove default padding */
+}
+
+footer#education ul li {
+    margin-bottom: 10px; /* Add some space between list items */
+}
+
+footer#education ul li ul {
+    list-style-type: none; /* Remove bullets from nested ul */
+    padding-left: 0; /* Remove default padding */
+    margin-top: 5px; /* Add some space between parent and child list */
+}
+
+
+
+
+
+/* Form Section */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #E09200;
+    border: 2px solid #0A090C;
+    border-radius: 10px;
+}
+
+label {
+    font-size: 18px;
+    color: #FFFDED;
+    margin-bottom: 5px;
+}
+
+input, select, textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: none;
+}
+
+input[type="submit"] {
+    background-color: #E09200;
+    color: #0A090C;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #FFFDED;
+}
+
+
+

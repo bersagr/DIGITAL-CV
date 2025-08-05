@@ -74,6 +74,16 @@ header h1 {
   margin-bottom: 1rem;
 }
 
+/* Contact Info */
+.contact-info {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 10px;
+}
+
 /* Typewriter effect */
 .container {
   width: 100%;
@@ -156,14 +166,6 @@ button {
   cursor: pointer;
 }
 
-/* Contact Info */
-.contact-info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  margin-top: 2rem;
-}
 
 /* Media Queries */
 @media (max-width: 768px) {

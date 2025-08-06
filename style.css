@@ -79,20 +79,24 @@ header h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem; /* adds space between items */
-  flex-wrap: wrap; /* allows wrapping on very small screens */
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 1.5rem 0;
 }
 
 .contact-info a {
   text-decoration: none;
-  color: #1b1f3b; /* navy from your theme */
-  font-size: 0.9rem;
+  color: #1b1f3b; /* your navy */
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
 }
 
-.contact-info img {
-  width: 24px;
-  height: 24px;
+.contact-info i {
+  font-size: 1.25rem;
 }
+
 
 /* Typewriter effect */
 .container {

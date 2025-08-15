@@ -22,7 +22,7 @@ img {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
   font-weight: bold;
   text-align: center;
   color: #1b1f3b; /* Navy */
@@ -104,7 +104,7 @@ header h1 {
   display: flex;
   justify-content: center; /* horizontal center */
   align-items: center;     /* vertical center if needed */
-  width: 100%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -139,7 +139,7 @@ header h1 {
 /* Skills */
 .skills {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   gap: 1rem;
   text-align: center;
 }
@@ -211,7 +211,7 @@ button {
   }
 
   .experience-item, .education-item {
-    padding: 1rem;
+    padding: 2.25rem;
   }
 
   img {
@@ -220,6 +220,6 @@ button {
   }
 
   .typewriter {
-    font-size: 1.1rem;
+    font-size: 1.25rem;
   }
 }

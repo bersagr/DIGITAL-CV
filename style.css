@@ -106,6 +106,19 @@ header h1 {
   overflow: hidden;
 }
 
+.typewriter {
+  display: inline-block;
+  overflow: hidden;
+  border-right: .15em solid #c8a2c8; /* Dusty Rose */
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  /*animation: typing 3.5s steps(30, end) infinite, blink-caret .75s step-end infinite;*/
+  animation: typing 3.5s steps(30, end) 3, blink-caret .75s step-end 2;
+  font-size: 2rem;
+  color: #1b1f3b; /* Navy */ 
+}
+
 .typing {
   display: inline-block;
   overflow: hidden;           /* hides text until it's typed */

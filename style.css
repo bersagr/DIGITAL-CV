@@ -119,10 +119,11 @@ header h1 {
   color: #1b1f3b; /* Navy */
 }
 
+}
+
 @keyframes typing {
-  0% { width: 0 }
-  50% { width: 100% }
-  100% { width: 0 }
+  from { width: 0 }
+  to   { width: 30ch } /* match number of characters in your text */
 }
 
 @keyframes blink-caret {

@@ -100,14 +100,15 @@ header h1 {
 
 
 /* Typewriter effect */
-.container {
+.typewriter-container {
   display: flex;
   justify-content: center; /* horizontal center */
-  align-items: center;     /* vertical center if you want it */
-  min-height: 100vh;       /* full screen height */
+  align-items: center;     /* vertical center if needed */
+  width: 100%;
+  margin: 0 auto;
 }
 
-.typing {
+.typewriter {
   display: inline-block;
   overflow: hidden;
   white-space: nowrap;
@@ -126,6 +127,7 @@ header h1 {
 @keyframes blink-caret {
   50% { border-color: transparent }
 }
+
 
 
 /* About */

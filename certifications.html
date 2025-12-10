@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact & Certifications | Rhianna Bersagel</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Lexend font -->
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome for LinkedIn / GitHub icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    referrerpolicy="no-referrer"
+  />
+
+  <!-- Your shared stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">RB</div>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="certifications.html">Certifications</a>
+      <a href="notary.html">Notary Services</a>
+      <a href="volunteer.html">Volunteer</a>
+      <a href="contact-certifications.html" class="active">Contact</a>
+    </nav>
+  </header>
+
+  <main class="main-container">
+    <!-- Quote + Contact -->
+    <section class="panel">
+      <h1>Let’s Connect</h1>
+
+      <blockquote class="quote" style="text-align:center; font-style:italic; margin-bottom:1.5rem;">
+        “If you're talking about it; you're not doing it.”<br />
+        <span style="font-size:0.9rem; font-style:normal;">&mdash; Someone on the Internet</span>
+      </blockquote>
+
+      <div class="contact-info">
+        <a href="mailto:rbersage@gmail.com">rbersage@gmail.com</a>
+        <a href="https://linkedin.com/in/rbersage" target="_blank" rel="noreferrer">
+          <i class="fab fa-linkedin fa-lg"></i>
+        </a>
+        <a href="https://github.com/bersagr" target="_blank" rel="noreferrer">
+          <i class="fab fa-github fa-lg"></i>
+        </a>
+      </div>
+    </section>
+
+    <!-- Certifications -->
+    <section class="panel">
+      <h2>Certifications</h2>
+
+      <ul class="cert-list">
+        <li>
+          <h3>Loan Signing Agent Certification</h3>
+          <p class="meta">In Progress &bull; November 2025 &bull; National Notary Association (NNA)</p>
+        </li>
+        <li>
+          <h3>Loan Signing System Course</h3>
+          <p class="meta">In Progress &bull; November 2025 &bull; Mark Wills</p>
+        </li>
+        <li>
+          <h3>Arizona Notary Commission No. 688695</h3>
+          <p class="meta">Active through Sept 2025 &bull; AZ Secretary Of State</p>
+        </li>
+        <li>
+          <h3>Health Information Technology</h3>
+          <p class="meta">In Progress &bull; September 2025 &bull; Pima Community College</p>
+        </li>
+        <li>
+          <h3>Medical Billing and Coding Certificate</h3>
+          <p class="meta">In Progress &bull; July 2025 &bull; U.S. Career Institute</p>
+        </li>
+        <li>
+          <h3>Google IT Support Professional Certificate</h3>
+          <p class="meta">Completed May 2025 &bull; Coursera</p>
+        </li>
+        <li>
+          <h3>Front-End Web Development Career Track</h3>
+          <p class="meta">Completed November 2024 &bull; Springboard</p>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Rhianna Bersagel • Tucson, AZ</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
